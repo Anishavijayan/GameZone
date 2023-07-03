@@ -150,7 +150,7 @@ document.querySelectorAll('.box').forEach(item => {
             // PAWN
 
             if (item.innerText == `${toggle}pawn`) {
-                item.style.backgroundColor = 'pink'
+                item.style.backgroundColor = 'blue'
 
                 if (tog % 2 !== 0 && aup < 800) {
 
