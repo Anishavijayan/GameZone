@@ -54,11 +54,11 @@ coloring()
 
 function reddish() {
     document.querySelectorAll('.box').forEach(i1 => {
-        if (i1.style.backgroundColor == 'pink') {
+        if (i1.style.backgroundColor == 'red') {
 
             document.querySelectorAll('.box').forEach(i2 => {
 
-                if (i2.style.backgroundColor == 'green' && i2.innerText.length !== 0) {
+                if (i2.style.backgroundColor == 'pink' && i2.innerText.length !== 0) {
 
 
                     greenText = i2.innerText
